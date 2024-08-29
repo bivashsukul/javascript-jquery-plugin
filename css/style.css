@@ -1,0 +1,174 @@
+/** font awesome---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;300;400;500;700&display=swap');
+/* font-family: "Poppins", sans-serif; */
+
+
+/* common coad start*/
+:root{
+    --pop: 'Poppins', sans-serif;
+    --rob: 'Roboto', sans-serif;
+
+    --fs:16px;
+    --fwr:400;
+
+    --black:#000000;
+    --cho:#503b0e;
+    --white:#FFFFFF;
+    --bgg:#d5f8d5;
+}
+
+
+body{
+    background-color: bisque;
+    font-family: var(--pop);
+    font-size: var(--fs);
+    font-weight: var(--fwr);
+    
+}
+/* common coad end*/
+
+/* *header start here */
+.header{
+    background-color: #d3a8a8;
+}
+.logo{
+    font-weight: 900;
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+    margin-left: 5px;
+    background-color: #d0d85f;
+    border-radius: 5px;
+}
+.menu ul li a:hover{
+    background-color: #ca67dd;
+}
+
+/* *header end here */
+/* searce start */
+.searchbar{
+  
+    height: 36px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 5px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 30px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 190px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    padding: 4px;
+    width: 32px;
+    height: 32px;
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 35px;
+    width: 35px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+/* searce end */
+
+/* *navbar end here */
+
+/* * Counter stert here */
+.counter-pluging{
+    padding: 50px 0;
+}
+.cs_item{
+    background-color: hotpink;
+}
+.counter{
+   font-size: 30px;
+   color: chartreuse;
+}
+/* * Counter end here */
+
+
+/* * counter 2 start here */
+.counter-2{
+    padding: 50px 0;
+    background-color: #d0d85f;
+}
+.s_items{
+    background-color: rgb(195, 112, 216);
+    text-align: center;
+    border-radius: 50%;
+}
+/* * counter 2 end here */
+
+
+/* *Stopwatch counter--start------------- */
+.stopwatc{
+    padding: 50px 0;
+    text-align: center;
+    background-color: cadetblue;
+}
+.timer_button{
+      width:100px;
+      height:50px;
+    }
+     
+    .countup {
+      text-align:center;
+      margin-bottom:20px;
+    }
+    .countup .timeel {
+      display: inline-block;
+      padding:10px;
+      background:#151515;
+      margin:0;
+      color:white;
+      min-width:2.6rem;
+      margin-left:13px;
+      border-radius:10px 0 0 10px;
+    }
+     
+    .countup span[class*="timeRef"] {
+      border-radius:0 10px 10px 0;
+      margin-left:0;
+      background:#e8c152;
+      color:black;
+
+    }
+    
+/* *counter3--end------------- */
+
+
+
+
+/* !------------------------------------------------ */
+
+/* *Animation section start here */
+
+.box{
+height: 200px;
+}
+
